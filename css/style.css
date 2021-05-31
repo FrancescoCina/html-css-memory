@@ -6,26 +6,16 @@
     padding: 0;
 }
 
-body{
-    
+body{    
     background-color: lightblue;
+    font-family: 'Nerko One', cursive;
 }
 
 .clearfix::after{
     content: '';
     display: table;
     clear: both;
-
 }
-
-
-.bicicletta{
-
-
-
-
-}
-
 
 /* main  */
 
@@ -39,6 +29,8 @@ main{
 h1{
     text-align: center;
     padding-top: 15px;
+    color: #fff;
+    font-size: 50px;
 }
 
 
@@ -131,7 +123,7 @@ h1{
 
 .first-row .col:nth-child(4):hover::after {
     content:'Submarine';
-    color: yellow;
+    color: orange;
     font-size: 20px;
     text-align: center;
     line-height:350px;
@@ -238,7 +230,7 @@ h1{
 
 .third-row .col:nth-child(2):hover::after {
     content:'Submarine';
-    color: yellow;
+    color: orange;
     font-size: 20px;
     text-align: center;
     line-height:350px;
