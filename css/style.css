@@ -55,7 +55,20 @@ h1{
     margin: 10px 10px;
     border-radius: 15px;
     box-shadow: 2px 2px 1px grey;
+    cursor:pointer;
 
+}
+
+.col:hover::after {
+    content:'';
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/bicicletta.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    display: block;
+    border-radius: 15px;
 }
 
 footer h3{
