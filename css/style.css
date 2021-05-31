@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-color: lightblue;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+main{
+    max-width: 700px;
+    height: 500px;
+    margin: 0 auto;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.first-row{
+    width: 100%;
+    height: calc(100% / 3);
+    margin-top: 30px;
+}
+
+
+.col{
+    width: 150px;
+    height: 200px;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-position: center;
+    float: left;
+    margin: 10px 10px;
+    border-radius: 15px;
+
+}
+
