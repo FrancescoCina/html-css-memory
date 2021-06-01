@@ -85,7 +85,7 @@ h1{
     background-color: #fff;
     display: block;
     border-radius: 15px;
-}
+} 
 
 /*  riga 1 - elemento 2  */
 
@@ -295,7 +295,12 @@ h1{
     display: block;
     border-radius: 15px;
 }
+/* footer  */
 
-footer h3{
+footer{
+    padding-top: 15px;
+}
+
+footer h2{
     text-align: center;
 }
